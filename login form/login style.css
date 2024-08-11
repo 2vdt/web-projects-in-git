@@ -1,0 +1,61 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f2f2f2;
+
+}
+.login-container{
+    width:350px;
+    height: 300px;
+    max-width:300px;
+    margin-top: 5%;
+    margin-left:35%;
+    margin-bottom: 5%;
+    padding:60px;
+   
+    border: 5px solid #00026b;
+    border-radius: 10px;
+    box-shadow:  rgb(rgb(202, 18, 18), rgb(54, 94, 54),);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Travel-Download-Free-Images-HD.jpg');
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+label{
+    margin :20px;;
+}
+input[type="text"],input[type="password"]{
+ width:80%;
+ padding:10px;
+ margin: bottom 10px;
+ border:1px solid rgb(114, 84, 194);
+ border-radius:5px;
+ font-size: 10px;
+ width:230px;
+ 
+}
+h2{
+    color: #05010e;
+    font-size:bold;
+    text-align:center;
+    }
+button[type="submit"]{
+    background-color: #444;
+    color:#fff;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+   cursor:pointer;
+   margin-top:25px ;
+   margin-left: 80px;
+   width:100px;}
+@media only screen and( max-width:600px){
+
+}
+.background-image{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/Travel-Download-Free-Images-HD.jpg');
+}
